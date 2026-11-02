@@ -1,0 +1,19 @@
+{
+  "raw_rows": 3000,
+  "clean_rows": 3000,
+  "exact_duplicates_removed": 0,
+  "missing_safe_inputs": {
+    "product": 32,
+    "ticket_type": 0,
+    "subject": 0,
+    "channel": 0,
+    "response_hours": 65,
+    "previous_contacts": 78,
+    "complaint_text": 0
+  },
+  "class_counts": {
+    "0": 2007,
+    "1": 993
+  },
+  "missing_policy": "Numeric medians and categorical Unknown fitted in each training fold; blank text gets a placeholder"
+}

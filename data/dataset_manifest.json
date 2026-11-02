@@ -1,0 +1,10 @@
+{
+  "kind": "synthetic",
+  "rows": 3000,
+  "seed": 42,
+  "sha256": "d7a211dde83807ed89152e9b4e16496fd71e30e40c0a364a408e5d40820ed2b7",
+  "generator": "complaints/data.py",
+  "contains_real_customers": false,
+  "target": "High/Critical priority proxy, not an observed future escalation",
+  "label_generation": "Noisy logistic probability followed by a Bernoulli draw; priority assigned afterwards"
+}

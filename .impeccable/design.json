@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T10:53:14Z",
+  "title": "Design System: Complaint Review",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Teal"
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "White"
+      },
+      "light-neutral": {
+        "role": "neutral",
+        "displayName": "Light Neutral"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "purpose": "Darker configured ink also raises Streamlit-derived muted text contrast."
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "Native Sans Serif",
+        "purpose": "Streamlit's configured sans serif option; heading and label metrics remain framework-owned."
+      }
+    }
+  },
+  "components": [],
+  "narrative": {
+    "overview": "The current interface expresses the user's simple, clean direction through native Streamlit forms, clear headings, short explanatory copy, and tabular evidence. A white main surface and light neutral controls support a single teal accent.\n\nThis document records the implemented dashboard. Streamlit owns its control geometry, interactive states, and responsive behavior. The theme values in `.streamlit/config.toml` are the source of the tokens above.",
+    "keyCharacteristics": [
+      "One sidebar with four workspaces and optional routing settings.",
+      "A blank new-ticket form as the default route.",
+      "Assessments, filtered review queues, analytics and record exploration.",
+      "Visible synthetic-data and proxy-label limitations; presentation instructions in a separate PDF."
+    ],
+    "rules": [
+      {
+        "name": "The Native Status Rule",
+        "body": "Use Streamlit's semantic information, warning, and error components for feedback. Their framework-provided colors are not additional project palette tokens.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve the single sidebar and labeled native controls.",
+      "Do keep the primary action visually clear within each workflow.",
+      "Do keep provenance and limitations beside the results they qualify.",
+      "Do verify desktop and narrow-screen form behavior after layout changes."
+    ],
+    "donts": [
+      "Don't introduce custom HTML, CSS, or JavaScript into the Python application.",
+      "Don't invent font, radius, spacing, motion, or breakpoint tokens from screenshots.",
+      "Don't replace readable result text with color-only feedback."
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+scenario,product,ticket_type,subject,channel,response_hours,previous_contacts,complaint_text
+Routine question,Headphones,General inquiry,Product question,Email,1.0,0,I need help understanding the warranty on my headphones. A short explanation would be helpful. I can wait for a regular update.
+Work disrupted,Laptop,Technical issue,Device not working,Phone,38.0,4,My laptop keeps restarting. I cannot continue my work and need help urgently. Repeated attempts have failed and I need immediate assistance.
+Repeated billing issue,Phone,Billing inquiry,Payment problem,Chat,22.0,3,A payment appears twice and my payment has not been credited. I am frustrated that the problem is still unresolved. Please review the ticket history.

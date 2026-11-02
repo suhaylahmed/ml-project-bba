@@ -1,0 +1,13 @@
+ticket_id,product,ticket_type,subject,channel,response_hours,previous_contacts,complaint_text,priority,escalation_required
+SYN-42-00001,Smartwatch,Billing inquiry,Delivery delay,Chat,13.59,0.0,My smartwatch request concerns this issue: the package has not arrived. I am frustrated that the problem is still unresolved. I can provide more details.,Medium,0
+SYN-42-00002,Tablet,Technical issue,Product question,Chat,7.27,3.0,My tablet request concerns this issue: I have a question about compatibility. I am disappointed with the experience. I can provide more details.,High,1
+SYN-42-00003,Phone,General inquiry,Device not working,Email,3.65,1.0,My phone request concerns this issue: the device keeps restarting. Please help me resolve this soon. Thank you for checking.,Medium,0
+SYN-42-00004,Phone,Refund request,Device not working,Email,12.9,4.0,My phone request concerns this issue: the device keeps restarting. This is disrupting my work and needs prompt attention. Please contact me by email.,High,1
+SYN-42-00005,Smartwatch,Billing inquiry,Account access,Chat,16.99,1.0,My smartwatch request concerns this issue: I cannot sign in. Please help me resolve this soon. Please contact me by email.,High,1
+SYN-42-00006,Smartwatch,Billing inquiry,Device not working,Email,8.48,1.0,My smartwatch request concerns this issue: the battery will not charge. I have tried the suggested steps without success. Please review the ticket history.,Low,0
+SYN-42-00007,Smartwatch,General inquiry,Device not working,Email,3.01,1.0,My smartwatch request concerns this issue: the battery will not charge. Please help me resolve this soon. I can provide more details.,Medium,0
+SYN-42-00008,Tablet,Refund request,Payment problem,Email,10.56,3.0,My tablet request concerns this issue: a payment appears twice. I am disappointed with the experience. Please contact me by email.,High,1
+SYN-42-00009,Smartwatch,Technical issue,Account access,Chat,2.7,0.0,My smartwatch request concerns this issue: I cannot sign in. I can wait for a regular update. I can provide more details.,Critical,1
+SYN-42-00010,Laptop,Billing inquiry,Product question,Chat,0.43,1.0,My laptop request concerns this issue: I have a question about compatibility. I am disappointed with the experience. I can provide more details.,Low,0
+SYN-42-00011,Laptop,Technical issue,Payment problem,Chat,43.01,0.0,My laptop request concerns this issue: the invoice amount looks wrong. I am frustrated that the problem is still unresolved. Please review the ticket history.,Low,0
+SYN-42-00012,Tablet,Refund request,Payment problem,Chat,15.14,1.0,My tablet request concerns this issue: a payment appears twice. This is causing a serious disruption to my business. Please review the ticket history.,Critical,1
